@@ -1,0 +1,4 @@
+**/build/
+linux_version/linux/
+linux_version/uboot/atf/
+linux_version/uboot/uboot/

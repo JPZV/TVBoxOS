@@ -1,0 +1,6 @@
+ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu- make defconfig
+ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu- make -j4 Image
+ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu- make -j4 dtbs
+ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu- make -j4 modules
+ARCH=arm64 CROSS_COMPILE=aarch64-linux-gnu- INSTALL_MOD_PATH=../build/modules make modules modules_install
+ARCH=arm64 INSTALL_HDR_PATH=../build/headers make headers_install
