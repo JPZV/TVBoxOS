@@ -1,1 +1,8 @@
+# Generated builds
 **/build/
+
+# Linux related
+
+# Android related
+droid_version/android/lineage/
+droid_version/android/bin/
