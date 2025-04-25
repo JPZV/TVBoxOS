@@ -1,9 +1,9 @@
 [submodule "linux_version/uboot/atf"]
-	path = uboot/atf
+	path = linux_version/uboot/atf
 	url = https://github.com/ARM-software/arm-trusted-firmware
 [submodule "linux_version/uboot/uboot"]
-	path = uboot/uboot
+	path = linux_version/uboot/uboot
 	url = https://source.denx.de/u-boot/u-boot.git
 [submodule "linux_version/linux"]
-	path = linux
+	path = linux_version/linux
 	url = git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
