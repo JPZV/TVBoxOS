@@ -6,3 +6,8 @@
 # Android related
 droid_version/android/lineage/
 droid_version/android/bin/
+
+# Dump related
+*.img
+#mmcblk1p9 (super) is over 100MB. We cannot upload it :c
+*mmcblk1p9.img*
