@@ -2,6 +2,12 @@
 **/build/
 *.scr
 
+#Backup
+*[Bb]ackup/
+
+#Temporal
+*tmp/
+
 # Linux related
 
 # Android related
@@ -12,3 +18,4 @@ droid_version/android/bin/
 *.img
 #mmcblk1p9 (super) is over 100MB. We cannot upload it :c
 *mmcblk1p9.img*
+*/dump/*.apk
