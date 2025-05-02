@@ -1,4 +1,3 @@
 make CROSS_COMPILE=aarch64-linux-gnu- BL31=../atf/build/sun50i_h616/debug/bl31.bin transpeed-8k618-t_defconfig
 make CROSS_COMPILE=aarch64-linux-gnu- BL31=../atf/build/sun50i_h616/debug/bl31.bin menuconfig
 make CROSS_COMPILE=aarch64-linux-gnu- BL31=../atf/build/sun50i_h616/debug/bl31.bin
-mkimage -C none -A arm64 -T script -d .u-boot.cmd u-boot.scr
